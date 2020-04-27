@@ -203,27 +203,4 @@ public class CarService {
     }
     return updateList;
   }
-  
-
-  
-  /*public List<Car> getByManufactureName(String manufactureName) {
-    return carRepo.findByManufactureName(manufactureName);
-  }
-  
-  public List<Car> getByModel(String model) {
-    return carRepo.findByModel(model);
-  }
-  
-  public List<Car> getByManufacturingYear(String manufacturingYear) {
-    return carRepo.findByManufacturingYear(manufacturingYear);
-  }
-  
-  public List<Car> getByColor(String color) {
-    return carRepo.findByColor(color);
-  }
-  
-  public void delete(int id) {
-    carRepo.deleteById(id);
-  }*/
-
 }
